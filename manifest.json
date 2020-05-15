@@ -1,0 +1,13 @@
+﻿{
+  "manifest_version": 2,
+  "name" : "百度翻译广告过滤器",
+  "description" : "不喜欢的过滤掉就好啦~~",
+  "version": "1.0.0.0",
+  "content_scripts" :[
+    {
+      "matches" : ["https://fanyi.baidu.com/*"],
+      "js" : ["main.js"]
+    }
+  ]
+   
+}
