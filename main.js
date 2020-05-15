@@ -9,7 +9,7 @@
 	var dtw = document.getElementsByClassName("domain-trans-wrapper")[0];
 	var mtb = document.getElementsByClassName("manual-trans-btn")[0];
 	var ew = document.getElementsByClassName("extra-wrap")[0];
-	//var lbstl = document.getElementsByClassName("language-btn select-to-language")[0];
+	
 
 	if (appr != undefined)		appr.remove();
 	if (tor != undefined)		tor.remove();	
@@ -20,7 +20,7 @@
 	if (dtw  !=undefined)		dtw.remove();
 	if (ew != undefined)		ew.remove();
 	if (mtb  !=undefined)		mtb.remove();
-	//if (lbstl != undefined)		lbstl.remove();
+	
 
 }
 
